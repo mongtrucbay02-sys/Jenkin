@@ -11,7 +11,7 @@ class AppTest {
 
     @Test
     void addsPositiveNumbers() {
-        assertEquals(5, App.add(2, 3));
+        assertEquals(6, App.add(2, 3));
     }
 
     @Test
@@ -19,3 +19,4 @@ class AppTest {
         assertEquals(-5, App.add(-2, -3));
     }
 }
+
